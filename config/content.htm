@@ -29,6 +29,16 @@
 <p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo </p>
 <p>各分組必須自行更改 @edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
 <p>更改 @edit publishconf.py 中的 SITEURL</p>
+<h1>測試頁面</h1>
+<p><img alt="" height="400" src="/images/20183261615489097.jpg" width="400"/></p>
+<p><img alt="" height="398" src="/images/下載.jpg" width="398"/></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">@app.route('/delete_file', methods=【'POST'】)
+def delete_file():
+  """Dekete user uploaded files."""
+  if not isAdmin():
+      return redirect("/login")
+  head,level,page =parse_content()
+  directory =render_menu(head,level,page)</pre>
 <p></p>
 <h1>組員操作影片</h1>
 <p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>

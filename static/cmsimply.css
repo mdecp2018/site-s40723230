@@ -1,8 +1,9 @@
 .container {
   position: relative;
+  background-image:url(https://asset.msi.com/resize/image/global/product/product_4_20180920154118_5ba34f1ee77cd.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png);
 }
 header{
-  background: #ccc;
+  background-image:url();
   padding: 20px;
 }
 confmenu
